@@ -1,6 +1,7 @@
 
 var hen,henImage;
 var basket,basketimage;
+var basket1
 var egg, eggimage,eggGroup,eggsound;
 
 var ground,score,life;
@@ -31,6 +32,10 @@ function setup() {
   eggGroup = new Group();
   score =0;
   life=3;
+
+  basket1  = createSprite(100,390,10,10);
+ basket1.addImage(basketimage);
+ basket1.debug =true;
   
 
 }
